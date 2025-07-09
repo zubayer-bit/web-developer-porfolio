@@ -1,0 +1,102 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; [kete dilam karon font-weight normal rakhte chai */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+.dark-3{
+    color: #757575;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px 19px 36px;
+    border-radius: 5px;
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right:51px ;
+    
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* header */
+.header{
+    background-image: url('../media/image/developer.png'),url('../media/image/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 0 38px 0 230px;
+
+}
+
+.banner-content{
+    max-width: 585px;
+    height: 356px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+    
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner-profile-image{
+    width: 584px;
+    height: 676px;
+    opacity: 100%;
+}
